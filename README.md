@@ -20,6 +20,7 @@ The commonly reported figure of approximately 137 input variables is explicitly 
 |---|---:|---:|
 | False positive rate | 44.9% | 23.5% |
 | False negative rate | 28.0% | 47.7% |
+
 ![Error Rate Comparison](06_Visuals/error_rate_comparison.png)
 
 These figures are presented as the figures originally published by ProPublica. The project also records a methodological critique by Barenstein (2019) concerning ProPublica's data-processing cutoff and treats that critique as a limitation on the precision of the published rate figures.
@@ -32,6 +33,7 @@ The assessment documents two findings that must be considered together:
 - COMPAS was also found to be approximately calibrated across race in the literature discussed.
 
 The project explains the mathematical reason these can coexist when subgroup base rates differ. It therefore avoids treating one fairness statistic as a universal definition of fairness.
+
 ![Fairness Governance Cycle](06_Visuals/fairness_governance_cycle.png)
 
 ## What this repository demonstrates
@@ -45,7 +47,7 @@ The project explains the mathematical reason these can coexist when subgroup bas
 | Decision framework | `04_Governance/fairness_metric_decision_record.md` |
 | Practical controls | `05_Controls/fairness_control_matrix.md` |
 | Visual communication | `06_Visuals/` |
-| Full case study | `07_Final/COMPAS_Bias_Audit_Final.pdf` |
+| Full case study | `08_Final/COMPAS_Bias_Audit_Final.pdf` |
 
 ## Limitations
 
