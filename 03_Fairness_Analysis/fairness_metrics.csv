@@ -1,0 +1,4 @@
+Metric,Black defendants,White defendants,Interpretation
+False positive rate,44.9%,23.5%,"Published ProPublica figures; high-risk classification among defendants who did not reoffend"
+False negative rate,28.0%,47.7%,"Published ProPublica figures; low-risk classification among defendants who did reoffend"
+Calibration,"Approximately calibrated","Approximately calibrated","Reported in Northpointe rebuttal and independent academic work discussed in the final assessment"
